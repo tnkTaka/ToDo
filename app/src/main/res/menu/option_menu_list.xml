@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menuSchedule"
+        android:title="@string/menu_title_schedule"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/menuToday"
+                android:title="@string/menu_today"
+                app:showAsAction="never"
+                />
+            <item
+                android:id="@+id/menuWeek"
+                android:title="@string/menu_week"
+                app:showAsAction="never"
+                />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/menuPriority"
+        android:title="@string/menu_title_priority"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/menuHigh"
+                android:title="@string/menu_high"
+                app:showAsAction="never"
+                />
+            <item
+                android:id="@+id/menuLow"
+                android:title="@string/menu_low"
+                app:showAsAction="never"
+                />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/menuDone"
+        android:title="@string/menu_title_done"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/menuComplete"
+                android:title="@string/menu_complete"
+                app:showAsAction="never"
+                />
+            <item
+                android:id="@+id/menuIncomplete"
+                android:title="@string/menu_incomplete"
+                app:showAsAction="never"
+                />
+            <item
+                android:id="@+id/menuAll"
+                android:title="@string/menu_all"
+                app:showAsAction="never"
+                />
+        </menu>
+    </item>
+
+</menu>

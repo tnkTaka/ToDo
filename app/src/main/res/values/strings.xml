@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?><!--
+ST32 Android ToDoアプリ
+res/values/string.xmlファイル
+-->
+<resources>
+    <string name="app_name">ToDo</string>
+    <string name="action_settings">Settings</string>
+    <!-- リスト画面用 -->
+    <string name="tv_title_list">ToDoリスト</string>
+    <string name="tv_state_list">初期表示</string>
+    <!-- 編集画面用 -->
+    <string name="tv_title_edit">タスク情報編集</string>
+    <string name="tv_title_insert">タスク情報登録</string>
+    <string name="tv_input_title">タスク名：</string>
+    <string name="tv_input_deadline">期限：</string>
+    <string name="tv_input_content">詳細：</string>
+    <string name="tv_input_priority">優先度：</string>
+
+    <string name="btn_done">未完</string>
+    <string name="btn_save">更新</string>
+    <string name="btn_insert">登録</string>
+    <string name="btn_back">戻る</string>
+    <string name="btn_date">日付変更</string>
+    <string name="btn_delete">タスク削除</string>
+
+    <string name="msg_input_title">タスク名を入力してください。</string>
+
+    <string name="menu_title_priority">優先度のソート</string>
+    <string name="menu_high">高い順</string>
+    <string name="menu_low">低い順</string>
+
+    <string name="menu_title_schedule">スケジュール</string>
+    <string name="menu_today">今日</string>
+    <string name="menu_week">今週</string>
+
+    <string name="menu_title_done">タスクのソート</string>
+    <string name="menu_complete">完了したタスク</string>
+    <string name="menu_incomplete">未完了のタスク</string>
+    <string name="menu_all">全てのタスク</string>
+
+    <string name="menu_context_completion">完了に変更</string>
+    <string name="menu_context_inCompletion">未完了に変更</string>
+    <string name="menu_context_other">その他</string>
+
+    <string name="menu_actionbar_insert">登録</string>
+    <string name="menu_actionbar_delete">削除</string>
+
+    <string name="menu_actionbar_back">戻る</string>
+</resources>
